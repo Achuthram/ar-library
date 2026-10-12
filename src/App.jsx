@@ -133,7 +133,7 @@ function handleSignOut() {
             <BookOpen size={23} />
           </span>
           <span>
-            Ramana <strong>Library</strong>
+            AR <strong>Library</strong>
           </span>
         </a>
 
