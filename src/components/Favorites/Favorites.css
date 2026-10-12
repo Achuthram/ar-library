@@ -1,0 +1,107 @@
+
+.favorites-page {
+  max-width: 1440px;
+  min-height: 65vh;
+  margin: 0 auto;
+  padding: 55px 8% 80px;
+}
+
+.favorites-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  color: var(--primary);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.favorites-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 35px;
+}
+
+.favorites-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  color: #DB2777;
+  background: #FCE7F3;
+  border-radius: 17px;
+}
+
+.favorites-heading h1 {
+  font-size: clamp(27px, 4vw, 38px);
+  letter-spacing: -1px;
+}
+
+.favorites-heading p {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.favorites-count {
+  margin: 32px 0 22px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.favorites-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 65px 20px;
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
+
+.favorites-empty > svg {
+  color: var(--secondary);
+  margin-bottom: 18px;
+}
+
+.favorites-empty h2 {
+  font-size: 21px;
+}
+
+.favorites-empty p {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.favorites-empty button {
+  margin-top: 22px;
+  padding: 12px 18px;
+  color: white;
+  background: linear-gradient(110deg, #6D00FF, #8B5CF6);
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .favorites-page {
+    padding: 35px 5% 55px;
+  }
+
+  .favorites-heading {
+    gap: 12px;
+    margin-top: 25px;
+  }
+
+  .favorites-icon {
+    width: 48px;
+    height: 48px;
+  }
+}
